@@ -981,7 +981,13 @@ The findings validate Apple's architectural approach, showing quantitative energ
 
 As computational demands continue to grow, energy efficiency will remain a critical consideration in system design. This project provides both a methodology and specific insights to guide energy-efficient GPU utilization.
 
-## 16. References
+## 16. License
+
+The contents of this project report and associated materials are available for viewing purposes. If you'd like to download, reuse, modify, or redistribute any part of the code or diagrams, please reach out for permission.
+
+For inquiries or to discuss potential contributions, please contact me at francknbkg@gmail.com.
+
+## 17. References
 
 1. Hong, S., & Kim, H. (2010). An integrated GPU power and performance model. ACM SIGARCH Computer Architecture News, 38(3), 280-289.
 

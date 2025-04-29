@@ -100,3 +100,11 @@ This project reflects my ongoing interest in GPU energy optimization and I'm act
 5. Integration with Metal framework for more accurate profiling
 
 I welcome collaboration and feedback from others interested in GPU architecture and energy efficiency!
+
+## License
+
+The contents of this repository are available for viewing purposes. If you'd like to download, reuse, modify, or redistribute any part of the code or diagrams, please reach out for permission.
+
+For inquiries or to discuss potential contributions, please contact me at francknbkg@gmail.com.
+
+See [LICENSE.md](LICENSE.md) for more details.
