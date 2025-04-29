@@ -515,7 +515,7 @@ We compare our results with published benchmarks:
 
 Our linear energy model demonstrates strong predictive power:
 
-![Prediction validation chart](/home/architect/gpu-energy-modeling/public/data/figures/prediction_validation_1745446258.png)
+![Prediction validation chart](data/figures/prediction_validation_1745446258.png)
 
 The model achieves:
 - Training RMSE: 0.42 W
@@ -531,7 +531,7 @@ Error distribution analysis shows:
 
 Power distribution across GPU components:
 
-![Component pie chart](/home/architect/gpu-energy-modeling/public/data/figures/component_pie_1745446258.png)
+![Component pie chart](data/figures/component_pie_1745446258.png)
 
 Component contributions:
 - Compute: 55.3%
@@ -597,7 +597,7 @@ Our analysis identified several optimization opportunities:
 
 We investigated how different memory access patterns affect energy efficiency:
 
-![Memory access pattern energy](/home/architect/gpu-energy-modeling/public/data/memory_study/access_pattern_energy.png)
+![Memory access pattern energy](data/memory_study/access_pattern_energy.png)
 
 Key findings:
 - Sequential access uses 43% less energy than random access
@@ -613,7 +613,7 @@ Implementation of tiled access patterns resulted in:
 
 We analyzed different shader implementations to identify energy-efficient patterns:
 
-![Shader optimization impact](/home/architect/gpu-energy-modeling/public/data/shader_study/optimization_impact.png)
+![Shader optimization impact](data/shader_study/optimization_impact.png)
 
 Comparison of different shader approaches:
 - Original: 2.4 GFLOPS/W
@@ -774,7 +774,7 @@ E_shading = E_shading_baseline × (1 - Occlusion_ratio × 0.9)
 
 Our validation tests confirmed the model's accuracy:
 
-![Validation results](/home/architect/gpu-energy-modeling/public/data/validation/compute_scaling_validation.png)
+![Validation results](data/validation/compute_scaling_validation.png)
 
 The model correctly predicts:
 - Linear scaling with compute utilization
@@ -786,7 +786,7 @@ The model correctly predicts:
 
 Analysis of feature importance reveals the relative contribution of different factors:
 
-![Feature importance](/home/architect/gpu-energy-modeling/public/data/figures/model_feature_importance_1745446258.png)
+![Feature importance](data/figures/model_feature_importance_1745446258.png)
 
 Key insights:
 - SM activity (38.2%) and memory throughput (35.1%) are dominant factors
@@ -797,7 +797,7 @@ Key insights:
 
 Our analysis provides a detailed breakdown of power by component:
 
-![Power breakdown](/home/architect/gpu-energy-modeling/public/data/figures/matmul_power_breakdown_1745446258.png)
+![Power breakdown](data/figures/matmul_power_breakdown_1745446258.png)
 
 For a matrix multiplication workload:
 - Compute: 55.3%
@@ -813,7 +813,7 @@ The breakdown varies by workload:
 
 Temporal analysis reveals dynamic behavior:
 
-![Power over time](/home/architect/gpu-energy-modeling/public/data/figures/matmul_power_over_time_1745446258.png)
+![Power over time](data/figures/matmul_power_over_time_1745446258.png)
 
 Key patterns:
 - Initial ramp-up phase as caches warm
@@ -827,7 +827,7 @@ Key patterns:
 
 Our study of memory access patterns revealed significant opportunities for energy optimization:
 
-![Memory access patterns](/home/architect/gpu-energy-modeling/public/data/memory_study/access_pattern_efficiency.png)
+![Memory access patterns](data/memory_study/access_pattern_efficiency.png)
 
 Access pattern comparison:
 - Sequential: 55.8 GB/s/J (baseline)
@@ -848,7 +848,7 @@ Implementing these recommendations in a sample workload resulted in energy savin
 
 Our shader efficiency study examined how different implementation choices affect energy consumption:
 
-![Shader efficiency](/home/architect/gpu-energy-modeling/public/data/shader_study/ops_per_joule.png)
+![Shader efficiency](data/shader_study/ops_per_joule.png)
 
 Shader implementation comparison:
 - Naive implementation: 25.7 GOPS/J
@@ -868,7 +868,7 @@ The optimized shader implementation improves both performance and energy efficie
 
 Our analysis of Apple's GPU architecture revealed unique energy characteristics:
 
-![Apple GPU benefits](/home/architect/gpu-energy-modeling/public/data/memory_study/relative_energy_cost.png)
+![Apple GPU benefits](data/memory_study/relative_energy_cost.png)
 
 Key findings:
 1. **TBDR Energy Advantage**: Apple's TBDR implementation provides 45% energy savings compared to IMR approaches
