@@ -521,8 +521,6 @@ The chart above compares our model's results with values from published literatu
 
 Our linear energy model demonstrates strong predictive power:
 
-![Prediction validation chart](data/figures/prediction_validation_1745446258.png)
-
 The model achieves:
 - Training RMSE: 0.42 W
 - Validation RMSE: 0.68 W 
@@ -536,8 +534,6 @@ Error distribution analysis shows:
 ### 8.2 Component-Level Power Breakdown
 
 Power distribution across GPU components:
-
-[comment]: <> (![Component pie chart](data/figures/component_pie_1745446258.png) )
 
 Component contributions:
 - Compute: 55.3%
