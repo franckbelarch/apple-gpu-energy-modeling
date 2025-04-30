@@ -537,7 +537,7 @@ Error distribution analysis shows:
 
 Power distribution across GPU components:
 
-![Component pie chart](data/figures/component_pie_1745446258.png)
+[comment]: <> (![Component pie chart](data/figures/component_pie_1745446258.png) )
 
 Component contributions:
 - Compute: 55.3%
